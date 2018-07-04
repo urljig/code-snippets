@@ -2,4 +2,4 @@
 
 A repository of self-contained code snippets.
 
-* [Loan calculator: a simple cli loan amortization calculator.](./loan_calculator.py)
+* [Loan calculator](./loan_calculator.py): a simple cli loan amortization calculator.
