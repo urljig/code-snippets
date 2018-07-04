@@ -26,7 +26,13 @@ import sys
 import functools
 from decimal import Decimal
 
-__doc__ = """A simple command-line loan calculator program."""
+__doc__ = """A simple command-line loan calculator program.
+
+* Shows amortization schedule for the loan.
+* Can specify any number of one-time-payments.
+* Can specify any number of ongoing recurring payments.
+
+"""
 
 
 class PaymentCalculator:
