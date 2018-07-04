@@ -243,8 +243,9 @@ def cli():
                         metavar='start:occurence:amount',
                         type=recurring_pay_type,
                         nargs='+',
-                        help='A recurring payment, ex. 2:100 means \
-                        every other month pay an extra $200.')
+                        help='A recurring payment, ex. 5:2:100 means \
+                        every other month pay an extra $200, starting \
+                        with payment 5')
     parser.add_argument('--refinance',
                         metavar='payment:rate:payments')
     return parser
